@@ -52,6 +52,7 @@ const deleteAWorkout = async (req,res) =>{
         res.status(200).json(workout);
     }
 }
+
 // update a workout
 
 const updateAWorkout = async (req,res) =>{
